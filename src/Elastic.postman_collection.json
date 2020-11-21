@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "7ef00de5-ce32-4241-a238-a79a2fe01b3b",
+		"name": "Elastic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search with body model",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Query\": \"abbas\",\r\n        \"Model\":{\r\n        \"CustomerName\": \"abbas\"/*Abbas K. Radam*/,\r\n        \"Phone1\": \"7809705161\"/*Jakeem A. Durham*/,\r\n        \"Phone2\": \"7701809813\"/*Mercedes Saunders*/,\r\n        \"Email\": \"Nullam@nonu mmyac.com\"/*Ali Holden*/\r\n        },\r\n        \"Page\":1,\r\n        \"PageSize\":15\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/search/Abbas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"search",
+						"Abbas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search with query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/api/search/213546987985",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"search",
+						"213546987985"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"Query\": \"abbas\",\r\n        \"Model\":{\r\n        \"CustomerName\": \"Abbas\",\r\n        \"Phone1\": \"7809705161\",\r\n        \"Phone2\": \"7701809813\",\r\n        \"Email\": \"suscipit@anteVivamusnon.edu\"\r\n        }\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"search"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

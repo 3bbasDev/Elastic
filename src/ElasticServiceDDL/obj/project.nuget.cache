@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jYidDXp533x/emvV/x28vH6/qfKFgq1z7QY2Qr9yfJrjiqWsApHE8m71sdnOjh/cN5FsvpvYprPbQEicTbYVrQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\abbas\\Documents\\GitHub\\Elastic\\src\\ElasticServiceDDL\\ElasticServiceDDL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abbas\\.nuget\\packages\\elasticsearch.net\\7.9.0\\elasticsearch.net.7.9.0.nupkg.sha512",
+    "C:\\Users\\abbas\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\abbas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.9\\microsoft.extensions.dependencyinjection.abstractions.3.1.9.nupkg.sha512",
+    "C:\\Users\\abbas\\.nuget\\packages\\nest\\7.9.0\\nest.7.9.0.nupkg.sha512",
+    "C:\\Users\\abbas\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\abbas\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.5.1\\system.diagnostics.diagnosticsource.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

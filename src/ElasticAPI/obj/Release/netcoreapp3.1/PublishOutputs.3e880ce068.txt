@@ -1,0 +1,16 @@
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\ElasticApi.exe
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\ElasticApi.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\ElasticApi.deps.json
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\ElasticApi.runtimeconfig.json
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\ElasticApi.pdb
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Elasticsearch.Net.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Nest.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.Bson.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\ElasticServiceDDL.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticAPI\obj\Release\netcoreapp3.1\PubTmp\Out\ElasticServiceDDL.pdb

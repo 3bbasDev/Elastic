@@ -1,0 +1,78 @@
+﻿@page "/elastic"
+
+@using ElasticWeb.Data
+@using ElasticWeb.Model
+@inject ElasticService elasticService
+
+<h1>User</h1>
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label for="Name" class="control-label">Score Fillter CustomerName</label>
+                <input for="Name" class="form-control" @bind="@Score.CustomerName" />
+            </div>
+            <div class="form-group">
+                <label for="Department" class="control-label">Score Fillter Email</label>
+                <input for="Department" class="form-control" @bind="@Score.Email" />
+            </div>
+            <div class="form-group">
+                <label for="Designation" class="control-label">Score Fillter Phone1</label>
+                <input for="Designation" class="form-control" @bind="@Score.Phone1" />
+            </div>
+            <div class="form-group">
+                <label for="Company" class="control-label">Score Fillter Phone2</label>
+                <input for="Company" class="form-control" @bind="@Score.Phone2" />
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" @onclick="@CreateUser" value="Save" />
+            </div>
+        </div>
+    </div>
+</form>
+
+@if (Users == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>CustomerName</th>
+                <th>Email</th>
+                <th>Phone1</th>
+                <th>Phone2</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var User in Users)
+            {
+                <tr>
+                    <td>@User.CustomerName</td>
+                    <td>@User.Email</td>
+                    <td>@User.Phone1</td>
+                    <td>@User.Phone2</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private ScoreFillter Score = new ScoreFillter { CustomerName = 75, Email = 100, Phone1 = 100, Phone2 = 100 };
+
+    private User User = new User { CustomerName = "abbas", Email = "ali@gmail.com", Phone1 = "0099886567576", Phone2 = "893749823889" };
+    private List<User> Users;
+
+    protected async Task CreateUser()
+    {
+
+        Users = await elasticService.CreateUser(User);
+    }
+}

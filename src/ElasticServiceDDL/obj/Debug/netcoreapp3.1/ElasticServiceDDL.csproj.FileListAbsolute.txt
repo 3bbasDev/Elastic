@@ -1,0 +1,8 @@
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticServiceDDL\bin\Debug\netcoreapp3.1\ElasticServiceDDL.deps.json
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticServiceDDL\bin\Debug\netcoreapp3.1\ElasticServiceDDL.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticServiceDDL\bin\Debug\netcoreapp3.1\ElasticServiceDDL.pdb
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticServiceDDL\obj\Debug\netcoreapp3.1\ElasticServiceDDL.AssemblyInfoInputs.cache
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticServiceDDL\obj\Debug\netcoreapp3.1\ElasticServiceDDL.AssemblyInfo.cs
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticServiceDDL\obj\Debug\netcoreapp3.1\ElasticServiceDDL.csproj.CoreCompileInputs.cache
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticServiceDDL\obj\Debug\netcoreapp3.1\ElasticServiceDDL.dll
+C:\Users\abbas\Documents\GitHub\Elastic\src\ElasticServiceDDL\obj\Debug\netcoreapp3.1\ElasticServiceDDL.pdb
